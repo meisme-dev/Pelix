@@ -1,0 +1,1 @@
+grub-file --is-x86-multiboot Pelican.bin

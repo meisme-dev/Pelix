@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdint.h>
-#include "drivers/vga/vga.c"
-
-void kmain(){
-    vga_entry();
+#include "sys/drivers/vga/vga.c"
+int kinit(){
+    print(5, "hello");
 }
